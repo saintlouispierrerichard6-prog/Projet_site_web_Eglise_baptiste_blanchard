@@ -1,0 +1,355 @@
+
+/*Ces regles permettent d'eliminer les marges et padding indesirables */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+
+
+html, body{
+    
+    min-height: 100vh;
+}
+
+/*Les proprietés body et main permettent de garder le footer en bas et au main d'occuper tout l'espace vide*/
+body{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+main{
+    
+   flex: 1;
+}
+
+/*Cette regle stylise le premier barre de menu*/
+.Barre_Menu1{
+    
+   background-color: palevioletred;
+   display: flex;
+   padding: 0.2rem;
+   justify-content: space-between;
+   
+
+}
+
+/*Cette regle stylise le premier titre du menu*/
+.Barre_Menu1 h1{
+    
+  color: rgb(16, 15, 14);
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
+  font-weight: bold;
+  word-wrap: break-word; 
+  font-family: "Libre Baskerville", serif;
+
+
+}
+
+/*Cette regle stylise les icones du menu*/
+#Icone_réseauxSociaux{
+    
+   display: flex;
+   list-style-type: none;
+   gap: 1rem;
+   margin: 0.6rem;
+   transition: 0.6s ease;
+   font-size: 20px;
+}
+
+#Icone_réseauxSociaux li a{
+    
+   color: black;
+}
+/*Cette regle stylise la liste du premier barre de menu lorsque l'utilisateur clique sur
+un icone du menu*/
+#Icone_réseauxSociaux li a:hover{
+    
+   
+   background-color: rgb(224, 204, 177);
+   border-radius: 10px;
+}
+
+
+/*Cette regle stylise le second barre de menu*/
+.Menu2{
+    
+   background-color: burlywood;
+   
+   
+   
+}
+
+/*Cette regle stylise la liste du second barre de menu*/
+.Menu2 ul{
+    
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 1rem;
+   padding: 1rem;
+   
+   
+}
+
+/*Cette regle stylise la liste du second barre de menu*/
+.Menu2 ul li a{
+    
+   font-family: "Libre Baskerville", serif;
+   font-size: clamp(0.9rem, 2vh, 1.2rem);
+   font-weight: bold;
+   word-wrap: break-word;
+   padding: 10px 15px;
+   transition: 0.4s ease;
+   color: rgb(92, 5, 5);
+}
+
+/*Cette regle stylise la liste du second barre de menu lorsque l'utilisateur clique sur
+un element du menu*/
+nav ul li a:hover{ 
+   
+   background-color: rgb(235, 200, 162);
+   border-radius: 5px;
+}
+
+#Menu3{
+    
+    display: grid;
+    justify-content: center;
+    background-image: url(../assets/Assets_CommingSoon/ciel.jpg);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Menu3 img{
+    
+   width: 100%;
+   height: auto;
+   display: block;
+   max-width: 100%;
+   place-items: center;
+   display: block;
+   margin: 0 auto;
+   background-size: cover;
+   background-position: center;
+
+}
+
+
+/* Pou logo a pase devan overlay la */
+
+#menu4 h2{
+   
+   font-family: "Libre Baskerville", serif;
+   font-size: clamp(1.5rem, 2vh, 1.2rem);
+   font-weight: bold;
+   text-align: center;
+   margin: 2rem;
+   max-width: 100%; 
+   word-wrap: break-word; 
+   color: black 
+   
+}
+
+
+#menu4 p{
+   
+   font-family: "Libre Baskerville", serif;
+   font-size: clamp(1.3rem, 2vh, 1.2rem);
+   font-weight: bold;
+   text-align: center;
+   margin: 1rem;
+   max-width: 100%; 
+   word-wrap: break-word; 
+   color: rgb(46, 8, 8)
+   
+}
+
+
+#FontEcran img{
+   
+   display: grid;
+   width: 100%;
+   max-width: 43rem;
+   height: auto;
+   margin: 0 auto;
+   padding: 0.5rem;
+   display: block;
+   background-size: cover;
+   background-position: center;
+   background-color: chocolate;
+   
+}
+
+#ApreEntete{ 
+   
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(237, 145, 112);
+   padding: 1rem;
+   margin-top : 3rem;
+   margin-bottom: 4rem;
+   
+}
+
+
+#paragraphe2{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   padding: 2rem;
+   margin-bottom:2rem ;
+   border-top: 4px solid goldenrod;
+   border-bottom: 4px solid goldenrod;
+   background-color: burlywood;
+     
+}
+
+.Paragraphe{
+   
+   font-family: "Libre Baskerville", serif;
+   font-weight: 700;
+   font-size: clamp(1.5rem , 2vh ,1.2rem);
+   word-wrap: break-word; 
+   color: black;
+   flex-wrap: wrap;
+   gap: 1rem;
+   
+}
+
+.Paragraphe3{
+   
+   font-family: "Libre Baskerville", serif;
+   font-weight: 600;
+   font-size: clamp(1rem , 2vh ,1.2rem);
+   word-wrap: break-word; 
+   color: black;
+   max-width: 55rem;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   text-align: justify;
+   gap: 1rem;
+   
+}
+
+#div1{
+   
+  display: grid;
+  justify-content: center;
+  background-image: url(../assets/Assets_CommingSoon/imagedesenfantsblanchard.jpg);
+  max-width: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0.3rem;
+  margin: 0 auto;
+  display: block;
+  border-top: 6px solid blue;
+  margin-top: 4rem;
+     
+}
+
+
+#div2{
+   
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color:palevioletred;
+  padding: 1rem 0.4rem;  
+}
+
+
+#div1 #ul{
+   
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  padding: 2rem;
+}
+
+#ul li strong{
+   
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: clamp(1.3rem , 2vh ,1.2rem);
+  word-wrap: break-word; 
+  flex-wrap: wrap;
+  color: white;
+
+}
+
+
+#ul li a{
+   
+  margin: 1rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  font-size: clamp(1.3rem , 2vh ,1.2rem);
+  word-wrap: break-word; 
+  flex-wrap: wrap;
+  transition: 0.6s ease;
+  color: blue;
+
+}
+
+#ul li a:hover{
+   color: rgb(179, 77, 77);
+   
+}
+
+
+#div2 ul li{
+   
+  font-family: "Libre Baskerville", serif;
+  font-weight: 70;
+  font-size: clamp(0.3rem , 2vh ,1.2rem);
+  word-wrap: break-word; 
+  flex-wrap: wrap;
+}
+
+.ul_foot li{
+   
+  font-family: "Libre Baskerville", serif;
+  font-weight: 70;
+  font-size: clamp(0.3rem , 2vh ,1.2rem);
+  word-wrap: break-word; 
+  flex-wrap: wrap;
+}
+
+#div2 p{
+   
+  margin-top: 4rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 70;
+  font-size: clamp(0.3rem , 2vh ,1.2rem);
+  word-wrap: break-word; 
+  flex-wrap: wrap;
+}
+
+.carousel-item img {
+    height: 450px; /* ou ka chanje valè a */
+    object-fit: cover;
+}
+
+
+
+/* Telefòn */
+@media (max-width: 600px) {  }
+
+/* Tablèt */
+@media (max-width: 900px) {  }
+
+/* Laptop */
+@media (max-width: 1200px) {  }
+
