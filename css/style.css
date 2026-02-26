@@ -122,7 +122,7 @@ nav ul li a:hover{
     
     display: grid;
     justify-content: center;
-    background-image: url(../assets/Assets_CommingSoon/ciel.jpg);
+    background-image: url(../assets/ciel.jpg);
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -245,7 +245,7 @@ nav ul li a:hover{
    
   display: grid;
   justify-content: center;
-  background-image: url(../assets/Assets_CommingSoon/imagedesenfantsblanchard.jpg);
+  background-image: url(../assets/imagedesenfantsblanchard.jpg);
   max-width: 100%;
   width: 100%;
   background-repeat: no-repeat;
