@@ -191,11 +191,7 @@ nav ul li a:hover{
 #ApreEntete{ 
    
    display: flex;
-   justify-content: space-between;
-   background-color: rgb(237, 145, 112);
-   padding: 1rem;
-   margin-top : 3rem;
-   margin-bottom: 4rem;
+   flex-direction: column;
    
 }
 
