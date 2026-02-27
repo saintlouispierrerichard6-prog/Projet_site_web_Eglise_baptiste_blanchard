@@ -1,0 +1,224 @@
+
+/* ============================
+   📱 TELEPHONE (max-width: 480px)
+   ============================ */
+@media (max-width: 480px) {
+
+    /* HEADER BAR 1 */
+    .Barre_Menu1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .Barre_Menu1 h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #Icone_réseauxSociaux {
+        margin: 0.2rem 0 0.5rem 0;
+        font-size: 16px;
+    }
+
+    /* MENU 2 */
+    .Menu2 ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .Menu2 ul li a {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    /* LOGO */
+    #Menu3 img {
+        width: 70%;
+        max-width: 250px;
+    }
+
+    /* APRE ENTETE */
+    #ApreEntete {
+        gap: 1rem;
+    }
+
+    #menu4 h2 {
+        font-size: 1.1rem;
+        margin: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    #menu4 p {
+        font-size: 0.95rem;
+        margin: 0.5rem 1rem 1rem 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .carousel-item img {
+        height: 230px;
+        object-fit: cover;
+    }
+
+    /* PARAGRAPHE 2 */
+    #paragraphe2 {
+        padding: 1.2rem 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .Paragraphe {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Paragraphe3 {
+        font-size: 0.9rem;
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    /* FOOTER */
+    #div1 {
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
+
+    #div1 #ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    #ul li strong {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #ul li a {
+        margin: 0.3rem;
+        font-size: 1rem;
+    }
+
+    #div2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #div2 ul {
+        padding: 0;
+    }
+
+    #div2 ul li,
+    .ul_foot li,
+    #div2 p {
+        font-size: 0.8rem;
+    }
+
+    #div2 p {
+        margin-top: 0.8rem;
+    }
+}
+
+/* ============================
+   📟 TABLETTE (max-width: 768px)
+   ============================ */
+@media (max-width: 768px) {
+
+    .Barre_Menu1 h1 {
+        font-size: 1.1rem;
+    }
+
+    .Menu2 ul {
+        gap: 0.7rem;
+    }
+
+    .Menu2 ul li a {
+        font-size: 0.95rem;
+    }
+
+    #Menu3 img {
+        width: 60%;
+        max-width: 300px;
+    }
+
+    #menu4 h2 {
+        font-size: 1.3rem;
+    }
+
+    #menu4 p {
+        font-size: 1.05rem;
+    }
+
+    .carousel-item img {
+        height: 320px;
+    }
+
+    #paragraphe2 {
+        padding: 1.5rem;
+    }
+
+    .Paragraphe3 {
+        max-width: 90%;
+    }
+
+    #div2 {
+        padding: 1.2rem;
+    }
+}
+
+/* ============================
+   💻 LAPTOP (max-width: 1024px)
+   ============================ */
+@media (max-width: 1024px) {
+
+    main {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .Paragraphe3 {
+        max-width: 48rem;
+    }
+}
+
+/* ============================
+   🖥️ GRAND ÉCRAN (min-width: 1200px)
+   ============================ */
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #menu4 h2 {
+        font-size: 2rem;
+    }
+
+    #menu4 p {
+        font-size: 1.3rem;
+    }
+
+    .carousel-item img {
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .Paragraphe3 {
+        font-size: 1.05rem;
+    }
+}
