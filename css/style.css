@@ -122,7 +122,7 @@ nav ul li a:hover{
     
     display: grid;
     justify-content: center;
-    background-image: url(../assets/ciel.jpg);
+    background-image: url(../assets/background.jpg);
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -339,13 +339,4 @@ nav ul li a:hover{
 }
 
 
-
-/* Telefòn */
-@media (max-width: 600px) {  }
-
-/* Tablèt */
-@media (max-width: 900px) {  }
-
-/* Laptop */
-@media (max-width: 1200px) {  }
 
